@@ -33,6 +33,7 @@ import {
 } from 'lucide-react';
 import { Applicant, TabType } from './types';
 import SalesDashboard from './components/SalesDashboard';
+import AIAssistantChatbot from './components/AIAssistantChatbot';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<TabType>('guide');
@@ -848,6 +849,7 @@ export default function App() {
           </div>
         </div>
       </footer>
+      <AIAssistantChatbot />
     </div>
   );
 }
