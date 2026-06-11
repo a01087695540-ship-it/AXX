@@ -1,0 +1,6 @@
+{
+  "name": "AX 부스터 과정 - 롯데GRS 아카데미",
+  "description": "롯데GRS 아카데미가 주관하는 실행 중심 프로젝트형 AX(AI Transformation) 부스터 과정 교육 안내 및 신청 시스템입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

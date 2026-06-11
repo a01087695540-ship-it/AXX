@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Noto Sans KR", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  
+  --color-brand-blue: #2563EB;
+  --color-brand-blue-dark: #1D4ED8;
+  --color-brand-teal: #00c2ad;
+  --color-brand-dark: #1A1A1A;
+  
+  --color-geo-bg: #F8F8F7;
+  --color-geo-dark: #1A1A1A;
+  --color-geo-border: #D1D1D1;
+  --color-geo-blue: #2563EB;
+  --color-geo-gray: #707070;
+  --color-geo-gray-light: #A0A0A0;
+  --color-geo-gray-dark: #505050;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-geo-bg);
+  color: var(--color-geo-dark);
+}
+
+.geo-dot-grid {
+  background-image: radial-gradient(var(--color-geo-dark) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
